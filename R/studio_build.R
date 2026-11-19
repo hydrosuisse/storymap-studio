@@ -422,7 +422,7 @@ page_tags <- function(story, lang, orig) {
   tagList(
     tags$header(class = "sm-header", brand, lang_nav),
     sm_cover(title = ptext(cv$title, lang, orig), summary = if (nzchar(tx(cv$subtitle, lang, orig))) ptext(cv$subtitle, lang, orig),
-             byline = cv$byline %||% NULL, image = rel(cv$image) %||% "../assets/cover.svg", image_alt = tx(cv$alt, lang, orig),
+             byline = cv$byline %||% NULL, image = rel(cv$image), image_alt = tx(cv$alt, lang, orig),
              credit = if (nzchar(tx(cv$creditLabel, lang, orig))) tx(cv$creditLabel, lang, orig)),
     sm_nav(nav),
     tags$div(class = "main-container", sections,
