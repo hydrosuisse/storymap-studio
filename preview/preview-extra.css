@@ -1,0 +1,5 @@
+/* placeholders used only in the studio preview */
+.prev-ph-box { height: 260px; background: #E6ECE3; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; color: #3D4753; font-family: sans-serif; border-radius: 4px; }
+.prev-tour { background: #E6ECE3; padding: 24px; border-radius: 4px; }
+.prev-ph-label { font: 600 13px sans-serif; color: #3D4753; margin-bottom: 12px; }
+.prev-tour .sm-slide-card { max-width: 520px; margin: 0 0 16px; background: #fff; }
